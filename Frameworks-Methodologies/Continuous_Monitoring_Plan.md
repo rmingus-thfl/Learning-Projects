@@ -33,7 +33,6 @@ graph TD;
   Remediation -->|Authorized| Change_Control_Process;
   Change_Control_Process -->|Updated| Security_Baseline;
 
-
 ## 📌 Real-World Applications  
 - Helps maintain **DoD cybersecurity standards** and compliance.  
 - Supports **continuous risk management and organizational security governance**.  
