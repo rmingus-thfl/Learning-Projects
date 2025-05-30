@@ -26,6 +26,27 @@ To ensure alignment between the **risk/threat environment** and the implemented 
 - **Security Manager** analyzes monitoring & incident data, investigates deviations, and assigns remediation tasks.  
 - Compiles **quarterly reports** for **upper management & board of directors** to ensure compliance.
 
+- ### **📌 Continuous Monitoring Workflow Visual**  
+The diagram below illustrates the **workflow for handling incidents and security management authorization**.
+
+#```mermaid
+graph TD;
+  Incident_Report -->|Submitted| Security_Manager;
+  Security_Manager -->|Investigates| Remediation;
+  Remediation -->|Authorized| Change_Control_Process;
+  Change_Control_Process -->|Updated| Security_Baseline;
+
+  <!-- GitHub sometimes requires additional content after Mermaid.js for proper rendering -->
+
+### **Flowchart Explanation**  
+This diagram illustrates the **incident response workflow** and how security management updates the control baseline.  
+
+---
+
+## 📌 Real-World Applications  
+
+
+
 ## 📌 Real-World Applications  
 - Helps maintain **DoD cybersecurity standards** and compliance.  
 - Supports **continuous risk management and organizational security governance**.  
@@ -55,12 +76,6 @@ These tools ensure **proactive security monitoring** and strengthen the **risk m
 - [Continuous Monitoring in Cybersecurity](https://cybersecop.com/news/2024/9/20/why-continuous-monitoring-is-crucial-for-cybersecurity-real-time-threat-detection-and-mitigationnbsp) – Importance of real-time threat detection.  
 - [Government Continuous Monitoring Case Study](https://www.isaca.org/resources/isaca-journal/issues/2015/volume-1/implementing-an-information-security-continuous-monitoring-solutiona-case-study) – Federal agency implementation of security monitoring.  
 
-```mermaid
-graph TD;
-  Incident_Report -->|Submitted| Security_Manager;
-  Security_Manager -->|Investigates| Remediation;
-  Remediation -->|Authorized| Change_Control_Process;
-  Change_Control_Process -->|Updated| Security_Baseline;
 
 
 
