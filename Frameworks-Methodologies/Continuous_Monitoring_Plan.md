@@ -31,7 +31,7 @@ graph TD;
   Incident_Report -->|Submitted| Security_Manager;
   Security_Manager -->|Investigates| Remediation;
   Remediation -->|Authorized| Change_Control_Process;
-  Change_Control_Process -->|Updated| Security_Baseline;
+  Change_Control_Process -->|Updated| Security_Baseline;'''
 
 
 ## 📌 Real-World Applications  
