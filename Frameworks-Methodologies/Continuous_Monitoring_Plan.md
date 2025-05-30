@@ -26,12 +26,12 @@ To ensure alignment between the **risk/threat environment** and the implemented 
 - **Security Manager** analyzes monitoring & incident data, investigates deviations, and assigns remediation tasks.  
 - Compiles **quarterly reports** for **upper management & board of directors** to ensure compliance.
 
-  ```mermaid
+```mermaid
 graph TD;
   Incident_Report -->|Submitted| Security_Manager;
   Security_Manager -->|Investigates| Remediation;
   Remediation -->|Authorized| Change_Control_Process;
-  Change_Control_Process -->|Updated| Security_Baseline;'''
+  Change_Control_Process -->|Updated| Security_Baseline;
 
 
 ## 📌 Real-World Applications  
